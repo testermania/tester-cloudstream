@@ -36,7 +36,6 @@ class WebteIzle : MainAPI() {
         "${mainUrl}/filtre/SAYFA?tur=Animasyon"   to "Animasyon",
         "${mainUrl}/filtre/SAYFA?tur=Belgesel"    to "Belgesel",
         "${mainUrl}/filtre/SAYFA?tur=Bilim-Kurgu" to "Bilim Kurgu",
-        "${mainUrl}/filtre/SAYFA?tur=Biyografi"   to "Biyografi",
         "${mainUrl}/filtre/SAYFA?tur=Dram"        to "Dram",
         "${mainUrl}/filtre/SAYFA?tur=Fantastik"   to "Fantastik",
         "${mainUrl}/filtre/SAYFA?tur=Gerilim"     to "Gerilim",
@@ -69,7 +68,8 @@ class WebteIzle : MainAPI() {
     }
 
     override suspend fun search(query: String): List<SearchResponse> {
-        val document = app.post("${mainUrl}/_ajaxweb/wrapper/filtre?a=${query}").document
+        val query    = java.net.URLEncoder.encode(query, "ISO-8859-9")
+        val document = app.post("${mainUrl}/filtre?a=${query}").document
 
         return document.select("div.golgever").mapNotNull { it.toSearchResult() }
     }
