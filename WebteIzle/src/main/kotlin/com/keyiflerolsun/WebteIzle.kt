@@ -43,7 +43,6 @@ class WebteIzle : MainAPI() {
         "${mainUrl}/filtre/SAYFA?tur=Komedi"      to "Komedi",
         "${mainUrl}/filtre/SAYFA?tur=Korku"       to "Korku",
         "${mainUrl}/filtre/SAYFA?tur=Macera"      to "Macera",
-        "${mainUrl}/filtre/SAYFA?tur=Müzik"       to "Müzik",
         "${mainUrl}/filtre/SAYFA?tur=Savaş"       to "Savaş",
         "${mainUrl}/filtre/SAYFA?tur=Spor"        to "Spor",
         "${mainUrl}/filtre/SAYFA?tur=Suç"         to "Suç",
