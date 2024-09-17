@@ -200,7 +200,7 @@ class WebteIzle : MainAPI() {
                     )
 
                     continue
-                } else if (iframe.contains("playerjs-three.vercel.app")) {
+                } else if (iframe.contains("playerjs-three.vercel.app") || iframe.contains("cstkcstk.github.io")) {
                     val decoded = iframe.substringAfter("&v=")?.let {
                         val hexString = it.replace("\\x", "")
                         val bytes     = hexString.chunked(2).map { chunk -> chunk.toInt(16).toByte() }.toByteArray()
