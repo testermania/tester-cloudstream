@@ -1,0 +1,8 @@
+{
+    "name": "Turkish Providers Repository",
+    "description": "Türkçe içerikli eklenti havuzu",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/plugins.json"
+    ]
+}
