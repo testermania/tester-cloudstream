@@ -40,4 +40,4 @@
 
 
 ## 8. Uygulamayı açın Ayarlar - Eklentiler - Depo Ekle kısmına girin.
-Sağdaki Depo Url'lerinden birini kopyalayıp yapıştırın. https://shorturl.at/mvP78 veya https://t.ly/X8u16 veya https://raw.githubusercontent.com/testermania/tester-cloudstream/master/repo.json
+Sağdaki Depo Url'lerinden birini kopyalayıp yapıştırın. https://t.ly/X8u16 veya https://raw.githubusercontent.com/testermania/tester-cloudstream/master/repo.json
