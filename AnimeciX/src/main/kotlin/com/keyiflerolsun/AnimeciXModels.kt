@@ -61,3 +61,7 @@ data class Video(
     @JsonProperty("season_num") val season_num: Int?,
     @JsonProperty("url") val url: String,
 )
+
+data class TitleVideos(
+    @JsonProperty("videos") val videos: List<Video>
+)
