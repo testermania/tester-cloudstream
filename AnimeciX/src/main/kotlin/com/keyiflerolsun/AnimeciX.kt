@@ -63,11 +63,12 @@ class AnimeciX : MainAPI() {
         val response = app.get(url).parsedSafe<Title>() ?: return null
 
         val episodes = mutableListOf<Episode>()
+        val titleId  = url.substringAfter("?titleId=")
 
         if (response.title.title_type == "anime") {
             for (sezon in 1..response.title.season_count) {
-                val sezonResponse = app.get("${url}&seasonNumber=${sezon}").parsedSafe<Title>() ?: return null
-                for (video in sezonResponse.title.videos) {
+                val sezonResponse = app.get("${mainUrl}/secure/related-videos?episode=1&season=${sezon}&titleId=${titleId}").parsedSafe<TitleVideos>() ?: return null
+                for (video in sezonResponse.videos) {
                     episodes.add(Episode(
                         data    = video.url,
                         name    = "${video.season_num}. Sezon ${video.episode_num}. Bölüm",
@@ -106,7 +107,10 @@ class AnimeciX : MainAPI() {
 
     override suspend fun loadLinks(data: String, isCasting: Boolean, subtitleCallback: (SubtitleFile) -> Unit, callback: (ExtractorLink) -> Unit): Boolean {
         Log.d("ACX", "data » ${data}")
-        loadExtractor(data, "${mainUrl}/", subtitleCallback, callback)
+        val iframeLink = app.get("${mainUrl}/${data}", referer="${mainUrl}/").url.toString()
+        Log.d("ACX", "iframeLink » ${iframeLink}")
+
+        loadExtractor(iframeLink, "${mainUrl}/", subtitleCallback, callback)
 
         return true
     }
