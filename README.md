@@ -2,7 +2,7 @@
 
 ## 💾 Kurulum
 
-1. **[cloudstream 4.4.0 indir /releases](https://github.com/recloudstream/cloudstream/releases/download/v4.4.0/4.4.0.apk)** _APK dosyasını indirip kurun._
+1. **[cloudstream 4.5.1 indir /releases](https://github.com/recloudstream/cloudstream/releases/download/v4.5.1/4.5.1.apk)** _APK dosyasını indirip kurun._
 2. Eğer bazı eklentilerde sorun yaşıyorsanız pre-release indirin ve kurun. https://github.com/recloudstream/cloudstream/releases/download/pre-release/app-prerelease-release.apk
 3. **Uygulamayı açın `Ayarlar` - `Eklentiler` - `Depo Ekle` kısmına girin.**
 4. **Sağdaki Depo Url'lerinden birini kopyalayıp yapıştırın.** `https://t.ly/X8u16` veya `https://raw.githubusercontent.com/testermania/tester-cloudstream/master/repo.json`
