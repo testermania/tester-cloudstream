@@ -32,8 +32,8 @@
 > [![PlayStore](https://github.com/testermania/tester-cloudstream/raw/master/.github/icons/MiBox/PlayStore.png)](#)
 
 ## 7. **Downloader** uygulaması ile kodları girerek uygulamaları kurun;
-> - (Zorunlu Değil Reklamsız Youtube) _[SmartTube](https://github.com/yuliskov/SmartTube)_ » `54794`
-> - _[cloudstream 4.4.0 indir /releases](https://github.com/recloudstream/cloudstream/releases/download/v4.4.0/4.4.0.apk)_ _APK dosyasını indirip kurun._ » `127912`
+> - (Zorunlu Değil Reklamsız Youtube) _[SmartTube](https://github.com/yuliskov/SmartTube)_ » `4690111`
+> - _[cloudstream 4.5.1 indir /releases](https://github.com/recloudstream/cloudstream/releases/download/v4.5.1/4.5.1.apk)_ _APK dosyasını indirip kurun._ » `7161288`
 > - Eğer bazı eklentilerde sorun yaşıyorsanız pre-release indirin ve kurun. `532423`
 
 > [![Downloader](https://github.com/testermania/tester-cloudstream/raw/master/.github/icons/MiBox/Downloader.png)](#)
