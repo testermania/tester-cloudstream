@@ -36,7 +36,7 @@ open class CloseLoad : ExtractorApi() {
         }
 
         val obfuscatedScript = iSource.document.select("script[type=text/javascript]")[1].data().trim()
-        val rawScript        = unpack(obfuscatedScript)
+        val rawScript        = getAndUnpack(obfuscatedScript)
         val (data)           = Regex("""return result\}var .*?=.*?\("(.*?)"\)""").find(rawScript)?.destructured ?: throw ErrorLoadingException("data not found")
         val m3uLink          = getm3uLink(data)
         Log.d("Kekik_${this.name}", "m3uLink » $m3uLink")
