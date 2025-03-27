@@ -41,14 +41,14 @@ class FullHDFilmizlesene : MainAPI() {
         "${mainUrl}/filmizle/komedi-filmleri-izle-2/"           to "Komedi Filmleri",
         "${mainUrl}/filmizle/korku-filmleri-izle-2/"            to "Korku Filmleri",
         "${mainUrl}/filmizle/macera-filmleri-izle-1/"           to "Macera Filmleri",
-        "${mainUrl}/filmizle/muzikal-filmleri-izle/"            to "Müzikal Filmler",
+        //"${mainUrl}/filmizle/muzikal-filmleri-izle/"            to "Müzikal Filmler",
         "${mainUrl}/filmizle/polisiye-filmleri-izle-1/"         to "Polisiye Filmleri",
         "${mainUrl}/filmizle/psikolojik-filmleri-izle/"         to "Psikolojik Filmler",
         "${mainUrl}/filmizle/romantik-filmler-izle-1/"          to "Romantik Filmler",
         "${mainUrl}/filmizle/savas-filmleri-izle-2/"            to "Savaş Filmleri",
         "${mainUrl}/filmizle/suc-filmleri-izle-3/"              to "Suç Filmleri",
         "${mainUrl}/filmizle/tarih-filmleri-izle/"              to "Tarih Filmleri",
-        "${mainUrl}/filmizle/western-filmleri-izle/"            to "Western Filmler",
+        "${mainUrl}/filmizle/western-filmler-hd-izle-2/"        to "Western Filmler",
         //"${mainUrl}/filmizle/yerli-filmler-izle-3/"             to "Yerli Filmler",
     )
 
