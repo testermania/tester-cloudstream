@@ -173,6 +173,27 @@
         "name": "DiziPal"
     },
     {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=sinewix.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/testermania/tester-cloudstream",
+		"fileSize": 24029,
+        "status": 3,
+        "language": "tr",
+        "authors": [
+            "keyiflerolsun"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime"
+        ],
+        "version": 16,
+        "internalName": "SineWix",
+        "description": "Sinewix | \u00dccretsiz Film - Dizi - Anime \u0130zleme Uygulamas\u0131.",
+        "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/SineWix.cs3",
+        "name": "SineWix"
+    },
+    {
         "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/testermania/tester-cloudstream",
