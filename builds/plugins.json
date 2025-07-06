@@ -50,7 +50,7 @@
         "tvTypes": [
             "Cartoon"
         ],
-        "version": 5,
+        "version": 6,
         "internalName": "CizgiMax",
         "description": "\u00c7izgiMax ile \u00c7izgi Film izlemek art\u0131k daha kolay, donmadan full hd ve reklams\u0131z bir sitedir, i\u00e7erisinde 700 den fazla \u00e7izgi film olan, Bu site bu i\u015fi profesyonelce yap\u0131yor.",
         "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/CizgiMax.cs3",
@@ -69,7 +69,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 7,
+        "version": 8,
         "internalName": "DiziBox",
         "description": "Yabanc\u0131 Dizi izle, T\u00fcm yabanc\u0131 dizilerin yeni ve eski sezonlar\u0131n\u0131 full hd izleyebilece\u011finiz elit site.",
         "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/DiziBox.cs3",
@@ -107,7 +107,7 @@
         "tvTypes": [
             "AsianDrama"
         ],
-        "version": 9,
+        "version": 10,
         "internalName": "DiziKorea",
         "description": "En G\u00fcncel Kore Dizileri izleme Sitesi",
         "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/DiziKorea.cs3",
