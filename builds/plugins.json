@@ -266,30 +266,29 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 34,
+        "version": 35,
         "internalName": "JetFilmizle",
         "description": "Binlerce Film \u0130zleme Se\u00e7ene\u011fiyle En \u0130yi Film \u0130zleme Sitesi",
         "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/JetFilmizle.cs3",
         "name": "JetFilmizle"
     },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=koreanturk.com&sz=%size%",
+{
+        "iconUrl": "https://asyafilmizlesene.org/wp-content/uploads/2022/09/rsm.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/testermania/tester-cloudstream",
-        "fileSize": 12215,
         "status": 1,
         "language": "tr",
         "authors": [
             "keyiflerolsun"
         ],
         "tvTypes": [
-            "AsianDrama"
+            "Movie"
         ],
-        "version": 6,
-        "internalName": "KoreanTurk",
-        "description": "G\u00fcney Kore sevdal\u0131lar\u0131n\u0131n vazge\u00e7emedi\u011fi ve T\u00fcrkiye'nin en \u00e7ok ziyaret edilen G\u00fcney Kore Portal\u0131; Koreant\u00fcrk'e ho\u015fgeldiniz!",
-        "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/KoreanTurk.cs3",
-        "name": "KoreanTurk"
+        "version": 2,
+        "internalName": "AsyaFilmIzlesene",
+        "description": "Hint, Kore Filmleri",
+        "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/AsyaFilmIzlesene.cs3",
+        "name": "AsyaFilmIzlesene"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.net&sz=%size%",
