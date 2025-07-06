@@ -27,9 +27,10 @@ class JetFilmizle : MainAPI() {
         mainUrl                                          to "Son Filmler",
         "${mainUrl}/netflix"                             to "Netflix",
         "${mainUrl}/editorun-secimi"                     to "Editörün Seçimi",
-        "${mainUrl}/turk-film-full-hd-izle"              to "Türk Filmleri",
-        "${mainUrl}/cizgi-filmler-full-izle"                  to "Çizgi Filmler",
-        "${mainUrl}/kategoriler/yesilcam-filmleri-full-izle"  to "Yeşilçam Filmleri"
+        "${mainUrl}/kategoriler/bollywood-filmleri-izle"             to "Bollywood Filmleri",
+        //"${mainUrl}/turk-film-full-hd-izle"              to "Türk Filmleri",
+        //"${mainUrl}/cizgi-filmler-full-izle"                  to "Çizgi Filmler",
+        //"${mainUrl}/kategoriler/yesilcam-filmleri-full-izle"  to "Yeşilçam Filmleri"
     )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
