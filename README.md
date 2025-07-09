@@ -6,6 +6,12 @@
 2. Eğer bazı eklentilerde sorun yaşıyorsanız pre-release indirin ve kurun. https://github.com/recloudstream/cloudstream/releases/download/pre-release/app-prerelease-release.apk
 3. **Uygulamayı açın `Ayarlar` - `Eklentiler` - `Depo Ekle` kısmına girin.**
 4. **Sağdaki Depo Url'lerinden birini kopyalayıp yapıştırın.** `https://t.ly/X8u16` veya `https://raw.githubusercontent.com/testermania/tester-cloudstream/master/repo.json`
+5. Uygulamayı ilk açtığınızda TV veya Telefon modunuzu soruyor. TV de kullanacaksanız TV modunu seçin.
+6. Sağ alttaki dişli simgesine tıklayın ayarlara girin.
+7. "Genel" kısmından "HTTPS üzerinden DNS" kısmına girip "Cloudflare veya "Google" seçin uygula deyin. Geri gelin.
+8. "Oynatıcı" kısmına girin, "Resim içinde resim" kapalı, "Otomatik Döndür" kapalı (telefon için açık), "Yazılımsal çözücü" hayır'ı seçin ses veya görüntü sorunu olursa otomatik yaparsınız. TV ve kumanda ile kullanıyorsanız kaydırma ayarlarını kapatabilirsiniz. Geri gelin.
+9. "Eklentiler" kısmına girin, Turkish Providers Repository tıklayın ve istediğiniz servisin yanındaki indirme butonu tıklayarak indirin sol alttaki Ev simgesi (Ana sayfaya)
+tıklayın ve kullanın. 3 çizgi Aşağı üçgene tıklayarak eklent kısmından seçtiğiniz bir den fazla eklenti arasında geçiş yapabilirsiniz.
 
 ### 📺 » [Google TV Temel Kurulum Adımları](https://github.com/testermania/tester-cloudstream/blob/main/MiBox.md)
 
