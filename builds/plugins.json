@@ -367,5 +367,26 @@
         "description": "Her t\u00fcrl\u00fc filmi ister dublaj ister altyaz\u0131l\u0131, en kaliteli bir \u015fekilde izleyebilece\u011finiz ar\u015fivi en geni\u015f ger\u00e7ek film izleme siteniz.",
         "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/WebteIzle.cs3",
         "name": "WebteIzle"
+    },
+	{
+        "iconUrl": "https://netfree2.cc/mobile/img/nf2/icon_x192.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/testermania/tester-cloudstream",
+        "fileSize": 47466,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Horis, megix",
+            "keyiflerolsun"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 15,
+        "internalName": "NetflixMirror",
+        "description": "Netflix, PrimeVideo Content in Multiple Languages",
+        "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/NetflixMirror.cs3",
+        "name": "NetflixMirror"
     }
 ]
