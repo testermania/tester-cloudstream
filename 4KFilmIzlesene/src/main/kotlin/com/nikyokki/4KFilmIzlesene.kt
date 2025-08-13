@@ -133,21 +133,33 @@ class `4KFilmIzlesene` : MainAPI() {
         }
     }
 
-    override suspend fun loadLinks(
+override suspend fun loadLinks(
     data: String,
     isCasting: Boolean,
     subtitleCallback: (SubtitleFile) -> Unit,
     callback: (ExtractorLink) -> Unit
 ): Boolean {
-    Log.d("4KI", "data » ${data}")
     val document = app.get(data).document
-    
-    // Doğru CSS seçicisini kullanın.
-    val iframe = fixUrlNull(document.selectFirst("div.movie-player iframe")?.attr("src")) ?: return false
-    
-    Log.d("4KI", "iframe » ${iframe}")
+    val iframeUrl = fixUrlNull(document.selectFirst("div.movie-player iframe")?.attr("src")) ?: return false
+    val iframeDocument = app.get(iframeUrl, headers = mapOf("Referer" to data)).document
+    val videoSrc = iframeDocument.selectFirst("video source")?.attr("src")
 
-    loadExtractor(iframe, "${mainUrl}/", subtitleCallback, callback)
-    return true
+    if (videoSrc != null) {
+        callback(ExtractorLink(
+            this.name,
+            this.name,
+            videoSrc,
+            iframeUrl,
+            Qualities.P1080.value,
+            isM3u8 = false
+        ))
+        return true
+    }
+    val nestedIframeUrl = fixUrlNull(iframeDocument.selectFirst("iframe")?.attr("src"))
+    if (nestedIframeUrl != null) {
+        loadExtractor(nestedIframeUrl, iframeUrl, subtitleCallback, callback)
+        return true
+    }
+    return false
 }
 }
