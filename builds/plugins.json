@@ -123,7 +123,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 21,
+        "version": 22,
         "internalName": "SetFilmIzle",
         "description": "Setfilmizle sitemizde, donma ya\u015famadan T\u00fcrk\u00e7e dublaj ve altyaz\u0131l\u0131 filmleri ile dizileri muhte\u015fem 1080p full HD kalitesinde izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/SetFilmIzle.cs3",
