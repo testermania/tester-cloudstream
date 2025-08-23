@@ -28,7 +28,7 @@ import com.lagradost.cloudstream3.utils.newExtractorLink
 import org.jsoup.nodes.Element
 
 class DiziMom : MainAPI() {
-    override var mainUrl = "https://www.dizimom.mom"
+    override var mainUrl = "https://www.dizimom.nl"
     override var name = "DiziMom"
     override val hasMainPage = true
     override var lang = "tr"
@@ -38,12 +38,12 @@ class DiziMom : MainAPI() {
     override val mainPage = mainPageOf(
         "${mainUrl}/tum-bolumler/page/" to "Son Bölümler",
         //"${mainUrl}/yerli-dizi-izle/page/" to "Yerli Diziler",
-        "${mainUrl}/yabanci-dizi-izle/page/" to "Yabancı Diziler",
-        "${mainUrl}/tv-programlari-izle/page/" to "TV Programları",
-        // "${mainUrl}/turkce-dublaj-diziler/page/"      to "Dublajlı Diziler",   // ! "Son Bölümler" Ana sayfa yüklenmesini yavaşlattığı için bunlar devre dışı bırakılmıştır..
-        // "${mainUrl}/netflix-dizileri-izle/page/"      to "Netflix Dizileri",
-        "${mainUrl}/kore-dizileri-izle/page/"         to "Kore Dizileri",
-        "${mainUrl}/full-hd-hint-dizileri-izle/page/" to "Hint Dizileri",
+        //"${mainUrl}/tv-programlari-izle/page/" to "TV Programları",
+      "${mainUrl}/turkce-dublaj-diziler/page/"      to "Dublajlı Diziler",   // ! "Son Bölümler" Ana sayfa yüklenmesini yavaşlattığı için bunlar devre dışı bırakılmıştır..
+     "${mainUrl}/yabanci-dizi-izle/page/" to "Yabancı Diziler",
+        "${mainUrl}/netflix-dizileri-izle/page/"      to "Netflix Dizileri",
+       "${mainUrl}/kore-dizileri-izle/page/"         to "Kore Dizileri",
+   "${mainUrl}/full-hd-hint-dizileri-izle/page/" to "Hint Dizileri",
     )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
