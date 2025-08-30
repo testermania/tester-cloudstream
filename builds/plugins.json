@@ -66,7 +66,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 16,
+        "version": 17,
         "internalName": "DiziYou",
         "description": "Diziyou en kaliteli T\u00fcrk\u00e7e dublaj ve altyaz\u0131l\u0131 yabanc\u0131 dizi izleme sitesidir. G\u00fcncel ve efsanevi dizileri 1080p Full HD kalitede izlemek i\u00e7in hemen t\u0131kla!",
         "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/DiziYou.cs3",
