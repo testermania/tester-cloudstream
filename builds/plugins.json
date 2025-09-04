@@ -86,7 +86,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 19,
+        "version": 20,
         "internalName": "HDFilmCehennemi",
         "description": "T\u00fcrkiye'nin en h\u0131zl\u0131 hd film izleme sitesi",
         "url": "https://raw.githubusercontent.com/testermania/tester-cloudstream/master/builds/HDFilmCehennemi.cs3",
