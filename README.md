@@ -2,7 +2,7 @@
 
 ## 💾 Kurulum
 
-1. **[cloudstream 4.5.2 indir /releases](https://github.com/recloudstream/cloudstream/releases/download/v4.5.4/4.5.4.apk)** _APK dosyasını indirip kurun._
+1. **[cloudstream 4.5.4 indir /releases](https://github.com/recloudstream/cloudstream/releases/download/v4.5.4/4.5.4.apk)** _APK dosyasını indirip kurun._
 2. Eğer bazı eklentilerde sorun yaşıyorsanız pre-release indirin ve kurun. https://github.com/recloudstream/cloudstream/releases/download/pre-release/app-prerelease-release.apk
 3. Uygulamayı ilk açtığınızda TV veya Telefon modunuzu soruyor. TV de kullanacaksanız TV modunu seçin.
 4. **Uygulamayı açın `Ayarlar` - `Eklentiler` - `Depo Ekle` kısmına girin.**
